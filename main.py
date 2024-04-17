@@ -19,7 +19,6 @@ def sort_dict(dict):
     list_dicts = []
     for letter in dict:
         list_dicts.append({'letter' : letter, 'num' : dict[letter]})
-    print(list_dicts)
     list_dicts.sort(reverse=True, key=sort_on)
     return list_dicts
 
